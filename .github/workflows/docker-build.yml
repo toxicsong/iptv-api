@@ -37,6 +37,6 @@ jobs:
           context: .
           push: true
           tags: |
-            toxicsong/iptv-api:latest
-            toxicsong/iptv-api:${{ env.version }}
+            chinazhangxiaosong/iptv-api:latest
+            chinazhangxiaosong/iptv-api:${{ env.version }}
           platforms: linux/amd64,linux/arm64,linux/arm/v7
